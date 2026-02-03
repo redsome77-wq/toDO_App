@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon_todo.ico" type="image/x-icon">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1><a href="./todo.html">To Do</a></h1>
+            <div id="gnb">
+                <h2><a href="#"><img src="./imgs/search.png" alt="검색"></a></h2>
+                <h2><a href="#"><img src="./imgs/menu.png" alt="전체 메뉴 보기"></a></h2>
+            </div>
+        </div>
+        <div class="tab-menu">
+            <h2><a href="#all_con">All(3)</a></h2>
+            <h2><a href="#">Today(0)</a></h2>
+        </div>
+        <ol class="tab-contents" id="all_con">
+            <li class="contents1">
+                <a href="#" class="date">12.29</a>
+                <a href="#" >스타벅스/커피빈 조사 과제 (~수요일)</a>
+            </li>
+            <li class="contents2">
+                <a href="#" class="date">12.29</a>
+                <a href="#">9시 정기모임</a>
+            </li>
+            <li class="contents3">
+                <a href="#" class="date">12.29</a>
+                <a href="#">주간 확인</a>
+            </li>
+        </ol>
+    <!--     <div class="tab-contents" id="all_con" 연습용 div>
+            <div class="contents1">
+                <a href="#" class="date">12.29</a>
+                <a href="#" >스타벅스/커피빈 조사 과제 (~수요일)</a>
+            </div>
+            <div class="contents2">
+                <a href="#" class="date">12.29</a>
+                <a href="#">9시 정기모임</a>
+            </div>
+            <div class="contents3">
+                <a href="#" class="date">12.29</a>
+                <a href="#">주간 확인</a>
+            </div>
+        </div> -->
+        <div class="write_box">
+            <p>Add a new task</p>
+            <a href="#" id="confirm_btn"><img src="./imgs/enter.png" alt="등록"></a>
+        </div>
+        <a href="#" id="write_fab"><img src="./imgs/new_btn_d.png" alt="할 일 등록"></a2> <!-- fab = 플로팅 액션버튼 -->
+    </div>
+    <hr>
+    <!-- 복습용 -->
+<!--     <div id="wrap">
+        <div id="header">
+            <h1>To Do</h1>
+            <div id="gnb">
+                <h2>검색</h2>
+                <h2>메뉴</h2>
+            </div>
+        </div>
+        <div class="tab-menu">
+            <h2>All(3)</h2>
+            <h2>Today(0)</h2>
+        </div>
+        <div class="tab-contents">
+            <div class="contents1">
+                <p class="date">12.29</p>
+                <p>스타벅스/커피빈 조사 과제 (~수요일)</p>
+            </div>
+            <div class="contents2">
+                <p class="date">12.29</p>
+                <p>9시 정기모임</p>
+            </div>
+            <div class="contents3">
+                <p class="date">12.29</p>
+                <p>주간 확인</p>
+            </div>
+        </div>
+        <div class="write_box">
+            <p>Add a new task</p>
+            <p id="confirm_btn">등록</p>
+        </div>
+        <h2 id="fab">할일등록</h2>
+    </div> -->
+</body>
+</html>
