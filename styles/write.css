@@ -1,0 +1,30 @@
+/* 할일 작성 write.css */
+#wrap {position: relative;} /* position 기준 */
+#wrap #write_form {
+    /* absolute 설정시 주의사항 및 작업 순서 */
+    /* 1. 부모 position 추가 설정 2.너비 재설정  */
+    position: absolute;
+    top: 324px;
+    width: calc(100% - 40px);
+}
+/* 자식write_box의 세로값을 부모는 자동으로 따라감=300 */
+#wrap #write_form .write_box {
+    height: 300px;
+    padding: 20px 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+}
+#wrap #write_form .write_box #write_contents {
+    background: none;
+    font-size: 0.88rem;
+    border: 0px;
+    width: 100%; height: calc(100% - 24px);
+    position: relative;
+}
+#wrap #write_form .write_box #confirm_btn {
+    position: absolute;
+    bottom: 20px; right: 20px;
+}
+#wrap #write_form .write_box #confirm_btn img {}
+#wrap #write_fab {filter:grayscale(100%)}
+#wrap #write_fab img {}

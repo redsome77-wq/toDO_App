@@ -1,0 +1,72 @@
+/* 통합디자인 위치 common.css */
+/* 개별 파일별 디자인 금지! */
+body {background-color: rgba(0,0,0,0.15);}
+#wrap {
+    width: 440px;
+    height: 95vh; min-height: 956px;
+    background-color: #fff;
+    margin: 5px auto 0;
+    padding: 45px 15px 0;
+}
+#wrap header {
+    overflow: hidden;
+}
+#wrap header h1 {
+    float: left;
+}
+#wrap header h1 a {
+    font-size: 1.5rem; /* 25px */ /* 글자에서 가까운 태그에 폰트설정 적용 */
+    font-weight: 900;
+}
+#wrap header nav {
+    float: right;
+}
+#wrap header nav a {}
+#wrap header nav .search {margin-right: 10px;}
+#wrap header nav .search img {}
+#wrap header nav .all_menu {}
+#wrap header nav .all_menu img {}
+#wrap .tab-menu {
+    margin: 10px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+#wrap .tab-menu a {
+    line-height: 41px;
+    display: inline-block;
+    font-size: 1.13rem;
+    color: #aaa;
+}
+#wrap .tab-menu .active{font-weight: 700; color: #000;}
+#wrap .tab-menu .all {margin-right: 8px;}
+#wrap .tab-menu .today {}
+#wrap .tab-contents {}
+#wrap .tab-contents .contents {
+    border-bottom: 1px solid #f5f5f5;
+    overflow: hidden;
+    font-size: 0.88rem;
+}
+#wrap .tab-contents .contents a {
+    line-height: 45px;
+    float: left;
+}
+/* 상태선택자 :hover*/
+/* 부모에 :hover 붙였을때 a 변화 */
+#wrap .tab-contents .contents:hover a {background-color: rgb(57, 114, 236); color: #fff;}
+#wrap .tab-contents .contents .date {
+    width: 72px;
+    text-align: center;
+}
+#wrap .tab-contents .contents .date + a {
+    width: calc(100% - 72px);
+    line-height: 45px;
+}
+#wrap .tab-contents .contents1 {}
+#wrap .tab-contents .contents2 {}
+#wrap .tab-contents .contents3 {}
+#wrap #write_fab {
+    position: fixed;
+    /* position: absolute; */
+    right: 100px; bottom: 100px;
+}
+#wrap #write_fab:hover img {filter:invert(100%) saturate(150%);}
+#wrap #write_fab img {}
