@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js" defer></script>
 </head>
 <body>
     <div id="wrap">
@@ -53,7 +54,14 @@
                 <a href="#">주간 확인</a>
             </div>
         </div> -->
-        <a href="./write.html" id="write_fab"><img src="./imgs/new_btn_a.png" alt="할 일 등록"></a> <!-- fab = 플로팅 액션버튼 -->
+        <form action="#" method="get" id="write_form">
+            <div class="write_box">
+                <textarea placeholder="Add a new task" name="write_contents" id="write_contents"></textarea><!-- 여러줄입력창 -->
+                <button type="button" id="confirm_btn"><img src="./imgs/enter.png" alt="등록"></button>
+                <!-- 에러 출력 위치 -->
+            </div>
+        </form>
+        <a href="#" id="write_fab"><img src="./imgs/new_btn_a.png" alt="할 일 등록"></a> <!-- fab = 플로팅 액션버튼 -->
     </div>
     <hr>
     <!-- 복습용 -->
